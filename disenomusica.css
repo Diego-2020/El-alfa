@@ -20,17 +20,17 @@ h1{
     z-index:1;
     margin: auto;
     display: block;
-    top:-300px;
+    top:-450px;
 }
 .foto{
     position: relative;
     margin: auto;
     display: block;
     z-index: 2;
-    top: 77px;
+    top: 54px;
 }
 #boton{
-    position: absolute;
+    position: relative;
     vertical-align: top;
     background-color: #00ff04ff;
     border: 5px solid #00ff04ff;
@@ -38,8 +38,10 @@ h1{
     outline: none;
     cursor: pointer;
     z-index: 2;
-    top:685px ;
-    margin-left: 699px;
+    top:50px ;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 #botoncito{
     margin-left: 01px;
@@ -53,7 +55,7 @@ p{
     color:white;
     width:30%;
     max-width:1000px;
-    margin: -250px auto;
+    margin: -400px auto;
     text-shadow:1px 3px #139FA7,2px 0px red, 7px 7px black;
     position: relative;
     z-index: 2;
@@ -64,7 +66,7 @@ p{
     position: fixed;
     z-index: 1;
 }
-h1 {
+.mw {
     background:#26B1D3;
     padding:5px 5px;
     color:white;
@@ -75,14 +77,72 @@ h1 {
     text-shadow:0px 8px green,-5px 0px #6D00FF;
     z-index: 3;
 }
+.mlc{
+    background:#EEC551;
+    padding:5px 5px;
+    color:white;
+    text-align:center;
+    font-size:100px;
+    margin:30px auto;
+    font-family:arial black;
+    text-shadow:0px 8px orange,-5px 0px aqua;
+    z-index: 3;
+}
+.kk {
+    background:#00FFFD;
+    padding:5px 5px;
+    color:white;
+    text-align:center;
+    font-size:100px;
+    margin:30px auto;
+    font-family:arial black;
+    text-shadow:0px 8px red,-5px 0px #6D00FF;
+    z-index: 3;
+}
+.s{
+    background:#D1D000;
+    padding:5px 5px;
+    color:white;
+    text-align:center;
+    font-size:100px;
+    margin:30px auto;
+    font-family:arial black;
+    text-shadow:0px 8px #9CC340,-5px 0px #875400;
+    z-index: 3;
+}
 .casa{
     display: block;
     margin: 0px auto;
     position: relative;
     z-index: 2;
+    top: 130px;
     transition:transform .2s;
 }
 .casa:hover{
     transform: scale(1.2);
     transform: rotate(360deg);
+}
+@media (max-width:800px){
+    p{
+        width:80%;
+    }
+    #bb{
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+    .mw{
+        width: 400px;
+        font-size: 65px;
+    }
+    .s{
+        width: 400px;
+        font-size: 65px;
+    }
+    .mlc{
+        width: 400px;
+        font-size: 65px;
+    }
 }
