@@ -38,7 +38,7 @@ h1{
     cursor: pointer;
     z-index: 2;
     top:685px ;
-    margin: 0px auto;
+    margin-left:50%;
 }
 #botoncito{
     margin-left: 0px;
