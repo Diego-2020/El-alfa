@@ -6,7 +6,6 @@ body{
     background: #00043A;
 }
 h1{
-    background:blue ;
     width:50% ;
     text-align: center;
     display: block;
@@ -30,7 +29,7 @@ h1{
     top: 77px;
 }
 #boton{
-    position: absolute;
+    position: relative;
     vertical-align: top;
     background-color: #00ff04ff;
     border: 5px solid #00ff04ff;
@@ -39,10 +38,10 @@ h1{
     cursor: pointer;
     z-index: 2;
     top:685px ;
-    margin-left: auto;
+    margin: 0px auto;
 }
 #botoncito{
-    margin-left: 01px;
+    margin-left: 0px;
     margin-top: 0px;
 
 }
