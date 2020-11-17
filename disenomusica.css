@@ -1,1 +1,88 @@
-* {margin: 0 px; padding: 0 px; } body {background: # 00043A; } h1 {width: 50%; text alignment: center; screen: block; margin: automatic; font size: 100 px; border radius: 10 px; } Player {position: relative; width: 400
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #00043A;
+}
+h1{
+    background:black ;
+    width:90% ;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 100px;
+    border-radius: 10px;
+}
+.reproductor{
+    position: relative;
+    width:400px ;
+    z-index:1;
+    margin: auto;
+    display: block;
+    top:-300px;
+}
+.foto{
+    position: relative;
+    margin: auto;
+    display: block;
+    z-index: 2;
+    top: 77px;
+}
+#boton{
+    position: absolute;
+    vertical-align: top;
+    background-color: #00ff04ff;
+    border: 5px solid #00ff04ff;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    z-index: 2;
+    top:685px ;
+    margin-left: 699px;
+}
+#botoncito{
+    margin-left: 01px;
+    margin-top: 0px;
+
+}
+p{
+    line-height:200%;
+    text-align:center;
+    font-size:170%;
+    color:white;
+    width:30%;
+    max-width:1000px;
+    margin: -250px auto;
+    text-shadow:1px 3px #139FA7,2px 0px red, 7px 7px black;
+    position: relative;
+    z-index: 2;
+}
+#particles-js {
+    height: 100vh; 
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+h1 {
+    background:#E18F00;
+    padding:5px 5px;
+    color:white;
+    text-align:center;
+    font-size:100px;
+    margin:30px auto;
+    font-family:arial black;
+    text-shadow:0px 8px red,-5px 0px yellow;
+    z-index: 3;
+}
+.casa{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    z-index: 2;
+    transition:transform .2s;
+}
+.casa:hover{
+    transform: scale(1.2);
+    transform: rotate(360deg);
+}
