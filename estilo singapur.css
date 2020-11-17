@@ -1,0 +1,81 @@
+body{
+	background:#0A1150;
+}
+p{
+	padding:10px 10px;
+	line-height:200%;
+	text-align:center;
+	font-size:170%;
+	color:white;
+	width:30%;
+	max-width:1000px;
+	margin:20px 520px;
+	text-shadow:1px 3px #139FA7,2px 0px red, 7px 7px black;
+}
+@keyframes example {
+  0%   {background-color:#745200; left:0px; top:0px;}
+  25%  {background-color:#007403; left:200px; top:0px;}
+  25%  {background-color:#745200; left:200px; top:200px;}
+  0%  {background-color:#007403; left:0px; top:200px;}
+}
+h1{
+	background:#FDFF25;
+	padding:5px 5px;
+	color:black;
+	text-align:center;
+	font-size:80px;
+	margin:30px auto;
+	font-family:arial black;
+	text-shadow:0px 8px red,-5px 0px green;
+	animation-name: example;
+    animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+audio{
+	padding:15px 600px;
+	background:#037F24;
+}
+img{
+	background:#880101;
+	padding:15px 600px;
+	display:block;
+	margin:30px auto;
+}
+a{
+	padding:auto 20px;	
+	display:block;
+	text-decoration:none;
+	background:#FDFF25;
+	text-align:center;
+	font-size:40px;
+	color:black;
+}
+a:hover{
+	background:#880101;
+	color:white;
+}
+@media (max-width:800px) {
+	body{
+		width:100%;
+		margin:0%;
+		background-size:100%;
+	}
+	h1{
+		width:100%;
+		margin:5% 0%;
+		padding:0%;
+	}
+   img{
+		width:50%;
+		padding:10% 25%;
+   }
+   audio{
+		width:50%;
+		padding:10% 25%;
+   }
+   p{
+		width:50%;
+		padding:10% 25%;
+		margin:0%;
+   }

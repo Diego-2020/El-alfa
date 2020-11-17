@@ -1,0 +1,88 @@
+body{
+	background:#0A1150;
+}
+p{
+	padding:10px 10px;
+	line-height:200%;
+	text-align:center;
+	font-size:170%;
+	color:white;
+	width:30%;
+	max-width:1000px;
+	margin:20px 520px;
+	text-shadow:1px 3px #139FA7,2px 0px red, 7px 7px black;
+}
+img{
+	background:#191A9D;
+	padding:15px 600px;
+	transition:transform .2s;
+	display:block;
+	margin:30px auto;
+}
+div img{
+	float:right;
+	background:none;
+	display:block;
+	margin:auto;
+}
+div div img{
+	float:left;
+	background:none;
+	display:block;
+	margin:0px -500px;
+}
+audio{
+	padding:15px 600px;
+	background:#30007cff;
+}
+@keyframes example {
+  0%   {background-color:#760000; left:0px; top:0px;}
+  25%  {background-color:#FC00FF; left:200px; top:0px;}
+  25%  {background-color:#760000; left:200px; top:200px;}
+  0%  {background-color:#FC00FF; left:0px; top:200px;}
+}
+h1{
+	background:#6200FF;
+	padding:5px 5px;
+	color:white;
+	text-align:center;
+	font-size:100px;
+	margin:30px auto;
+	font-family:arial black;
+	text-shadow:0px 8px #B104C5,-5px 0px #00E6FF;
+	animation-name: example;
+    animation-duration: 4s;
+	animation-iteration-count: infinite;
+	
+a{
+	padding:px 20px;
+	display:block;
+	text-decoration:none;
+	background:#8000FF;
+	text-align:center;
+	font-size:40px;
+	color:white;
+}
+a:hover{
+	background:#FC00FF;
+	color:black;
+}
+@media (max-width:800px) {
+	body{
+		width:100%;
+		margin:0%;
+		background-size:100%;
+	}
+   img{
+		width:50%;
+		padding:10% 25%;
+   }
+   audio{
+		width:50%;
+		padding:10% 25%;
+   }
+   p{
+		width:50%;
+		padding:10% 25%;
+		margin:0%;
+   }
